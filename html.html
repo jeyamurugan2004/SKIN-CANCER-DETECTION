@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/skin cancer.png') }}"> 
+<title>Skin Cancer </title> 
+<meta name="description" content="Skin Disease detection and treatment management susceptibility by AI"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="keywords" content="medicine, AI, disease detection, treatment management"> 
+<meta name="author" content="MedAI"> 
+<meta name="robots" content="index, follow"> 
+<meta property="og:title" content="MedicineAI"> 
+<meta property="og:description" content="Skin Disease detection and treatment management susceptibility by AI"> 
+<meta property="og:image" content="/static/images/og-image.jpg"> 
+<meta property="og:url" content="https://medai.onrender.com"> 
+<meta property="og:type" content="website"> 
+<!-- CSS Stylesheets --> 
+<link rel="stylesheet" href="/static/css/index.css"> 
+<link rel="stylesheet" href="/static/css/styles.css"> 
+<!-- JavaScript --> 
+<script src="/static/js/main.js"></script> 
+</head> 
+<body> 
+<div class="upper"> 
+<img src="/static/images/skin cancer.png"> 
+<p>Skin Cancer detection and treatment </p> 
+</div> 
+<div> 
+<button onclick="location.href='/signin';"> Get started</button> 
+</div> 
+</body> 
+</html> 
+ 
+ 
+detected.html 
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Red Icon</title> 
+<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/skin cancer') }}"> 
+<link rel="stylesheet" type="text/css" href="/static/css/detected.css"> 
+<link rel="stylesheet" href="/static/css/styles.css"> 
+<link rel="stylesheet" type="text/css" href="/static/css/detect-form.css"> 
+</head> 
+<body> 
+<div class="container"> 
+<div class="image-container"> 
+<img src="./red_icon-new.png" alt="Red Icon" class="colored-image"> 
+</div> 
+<div class="text-container"> 
+ 
+ 
+<p class="sorry-text">Sorry to say!</p> 
+<p class="disease-text">Disease has been detected.</p> 
+<button id="showFormButton">Click Here</button> 
+</div> 
+<div id="formContainer" class="center hidden"> 
+<form  action="https://www.google.com/maps/search/Nahdi+Pharmacy/@21.5349688,39.2280073,14z/data=!3m1!4b1?entry=ttu"> 
+<label for="diseaseType">Type of disease</label><br> 
+<input id="diseaseType" type="text" placeholder="Enter the type of disease here"><br> 
+<label for="diseasePeriod">Period of disease spread</label><br> 
+<input id="diseasePeriod" type="text" placeholder="Enter the period of disease spread here"><br> 
+<label for="medicine">Recommended medicine</label><br> 
+<input id="medicine" type="text" placeholder="Enter the recommended medicine here"><br> 
+<p class="medicine-text"> For Medicine places : </p> 
+<button id="btn" type="submit"> Check the Map </button> 
+</form> 
+</div> 
+</div> 
+<script> 
+var showFormButton = document.getElementById("showFormButton"); 
+showFormButton.addEventListener("click", function() { 
+var formContainer = document.getElementById("formContainer"); 
+formContainer.classList.remove("hidden"); 
+var textContainer = document.querySelector(".text-container"); 
+textContainer.style.display = "none"; 
+}); 
+</script> 
+</body> 
+</html> 
+scan.html 
+ 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}"> 
+<title>scan</title> 
+<link rel="stylesheet" href="/static/css/scan.css"> 
+ 
+ 
+ 
+</head> 
+<body> 
+<h1>Simple Body Scanning Example</h1> 
+<video id="video" autoplay></video> 
+<canvas id="canvas"></canvas> 
+<button id="capture">Capture Image</button> 
+<script src="script.js"></script> 
+</div> 
+</body> 
+</html> 
+ 

@@ -1,0 +1,141 @@
+index.css 
+ 
+* { 
+margin: 0; 
+padding: 0; 
+} 
+body { 
+background-image: url("./bg.jpg"); 
+background-position: center; 
+background-repeat: no-repeat; 
+background-size:auto; 
+background-attachment: fixed; 
+width: 100%; 
+height: 100%; 
+position: relative; 
+ 
+/*background: black;*/ 
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+/* background-color: red; */ 
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+justify-content: center; 
+ 
+} 
+button { 
+background-color: darkblue; 
+border: none; 
+border-radius: 8px; 
+color: #FFF; 
+font-size: 18px; 
+padding: 15px 51px; 
+cursor: pointer; 
+text-align: center; 
+cursor: pointer; 
+opacity: .8; 
+} 
+.upper{ 
+display: flex; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+padding-top: 3rem; 
+} 
+.upper img{ 
+height: 444px; 
+margin-top: 15x; 
+width: auto; 
+align-self: center; 
+} 
+ 
+ 
+.upper p{ 
+color: white; 
+font-size: 28px; 
+width: 80%; 
+text-align: center; 
+align-self: center; 
+margin-top: 1rem; 
+margin-bottom: 3rem; 
+line-height: 2rem; 
+} 
+button:hover { 
+opacity: 1; 
+} 
+dashboard .css 
+* { 
+ 
+ 
+margin: 0; 
+padding: 0; 
+} 
+body { 
+background-image: url("./bg.jpg"); 
+background-position: center; 
+background-repeat: no-repeat; 
+background-size:auto; 
+background-attachment: fixed; 
+width: 100%; 
+height: 100%; 
+position: relative; 
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+/* background-color: red; */ 
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+justify-content: center; 
+} 
+div img { 
+width: 350px; 
+position: relative; 
+bottom: 70px; 
+margin-top: 50px; 
+/* left: 500px; */ 
+} 
+button { 
+background-color: rgb(21, 47, 77); 
+border: none; 
+border-radius: 8px; 
+color: #FFF; 
+font-size: 18px; 
+margin-left: 75px; 
+padding: 15px 51px; 
+cursor: pointer; 
+text-align: center; 
+cursor: pointer; 
+opacity: .8; 
+ 
+ 
+} 
+@media screen and (max-width:390px) { 
+div img { 
+width: 400px; 
+position: relative; 
+left: 0; 
+} 
+button { 
+background-color: #58B2C9; 
+flex-shrink: 0; 
+margin-left:690px; 
+border: none; 
+color: white; 
+padding: 5px 22px; 
+text-align: center; 
+text-decoration: none; 
+display: inline-block; 
+font-size: 22px; 
+border-radius: 12px; 
+position: relative; 
+bottom: 80px; 
+left: 70px; 
+cursor: pointer; 
+} 
+} 
+button:hover { 
+opacity: 1; 
+} 
+.container 
+{ 
+margin-top:100px; 
+}
